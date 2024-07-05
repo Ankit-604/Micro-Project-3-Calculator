@@ -1,0 +1,96 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#calc_box
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#calculator h1
+{
+    padding-top: 5px;
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+    text-decoration: underline;
+}
+#calculator img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 5px 5px 2.5px rgb(0 0 0 / 10%);
+}
+#calculator
+{
+    width: 400px;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 5px 0px rgb(0 0 0 / 10%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#display
+{
+    margin-left: 20px;
+    width: 90%;
+    height: 45px;
+    margin-bottom: 10px;
+    text-align: right;
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 5px 5px 2.5px rgb(0 0 0 / 10%);
+}
+
+#buttons
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    justify-items: center;
+}
+
+button
+{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 5px 5px 2.5px rgb(0 0 0 / 10%);
+}
+
+button:hover
+{
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
